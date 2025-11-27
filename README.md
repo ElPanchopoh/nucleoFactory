@@ -43,7 +43,7 @@ Soporta operaciones CRUD excepto la actualización, ya que no es requerida.
 
 ```bash
 git clone <(https://github.com/ElPanchopoh/nucleoFactory.git)>
-cd notes-api
+cd nucleoFactory
 ```
 
 2. Instalar Dependencias
