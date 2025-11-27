@@ -6,10 +6,9 @@ import { NotesModule } from './notes/notes.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',      // ❗ Importante: localhost
-      port: 3306,
-      username: 'root',       // o 'nest'
-      password: 'root',       // o 'nest'
+      host: 'localhost',     
+      username: 'root',       
+      password: 'root',       
       database: 'notesdb',
       autoLoadEntities: true,
       synchronize: true,
