@@ -51,7 +51,9 @@ cd notes-api
 npm install
 ```
 
-3. Iniciar la base de datos MySQL con Docker
+3. Abrir docker desktop en pc!
+
+4. Iniciar la base de datos MySQL con Docker
 ```bash
 docker-compose up -d
 ```
