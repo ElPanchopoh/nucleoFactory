@@ -42,7 +42,7 @@ Soporta operaciones CRUD excepto la actualización, ya que no es requerida.
 1. Clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <(https://github.com/ElPanchopoh/nucleoFactory.git)>
 cd notes-api
 ```
 
