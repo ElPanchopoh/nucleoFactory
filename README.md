@@ -60,11 +60,11 @@ docker-compose up -d
 
 ## Configuracion
 
-## DB_HOST=localhost
-## DB_PORT=3306
-## DB_USERNAME=root
-## DB_PASSWORD=root
-## DB_DATABASE=notesdb
+DB_HOST=localhost
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=root
+DB_DATABASE=notesdb
 
 ## Ejecutar la aplicación
 # Modo desarrollo
@@ -79,10 +79,10 @@ La API estará disponible en: http://localhost:3000
 ## Endpoints de la API
 
 
-## GET  /api/notes Lista todas las notas
-## GET /api/notes/{id}  lista el valor buscado
-## POST /api/notes Crea un nuevo registro
-## DELETE /api/notes/{id} Borra el registro
+ GET  /api/notes Lista todas las notas
+ GET /api/notes/{id}  lista el valor buscado
+ POST /api/notes Crea un nuevo registro
+ DELETE /api/notes/{id} Borra el registro
 
 PUT o PATCH no requeridos en la prueba.
 
