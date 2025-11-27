@@ -53,7 +53,7 @@ npm install
 
 3. Iniciar la base de datos MySQL con Docker
 ```bash
-npm install
+docker-compose up -d
 ```
 
 ## Configuracion
