@@ -46,6 +46,7 @@ git clone https://github.com/ElPanchopoh/nucleoFactory.git
 cd nucleoFactory
 ```
 
+<<<<<<< HEAD
 2. Asegúrate de tener Docker y Docker Compose instalados.
 
 ## Configuración
@@ -97,3 +98,51 @@ PUT o PATCH no requeridos en la prueba.
 ```bash
 npm run test:e2e
 ```
+=======
+2. Instalar Dependencias
+```bash
+npm install
+```
+
+3. Abrir docker desktop en pc!
+
+4. Iniciar la base de datos MySQL con Docker
+```bash
+docker-compose up -d
+```
+
+## Configuracion
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=root
+DB_DATABASE=notesdb
+
+## Ejecutar la aplicación
+# Modo desarrollo
+npm run start:dev
+
+# Modo producción
+npm run start:prod
+
+
+La API estará disponible en: http://localhost:3000
+
+## Endpoints de la API
+
+
+ GET  /api/notes Lista todas las notas
+ GET /api/notes/{id}  lista el valor buscado
+ POST /api/notes Crea un nuevo registro
+ DELETE /api/notes/{id} Borra el registro
+
+PUT o PATCH no requeridos en la prueba.
+
+## Ejecutar prueba para el ejercicio:
+```bash
+npm run test:e2e
+```
+
+
+>>>>>>> 70c16706184966d63e205a0ac4d0099cdd7bf179
